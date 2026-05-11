@@ -21,6 +21,7 @@ export default function App() {
         <h2>Episode {selectedEpisode.id}</h2>
         <h3>{selectedEpisode.title}</h3>
         <p>{selectedEpisode.description}</p>
+        <button>Watch now</button>
       </section>
     );
   }

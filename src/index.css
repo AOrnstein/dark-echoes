@@ -54,3 +54,7 @@ main {
   flex-direction: column;
   gap: 0.3rem;
 }
+
+.details button:hover {
+  cursor: pointer;
+}
