@@ -11,7 +11,7 @@ export default function App() {
       return (
         <section className="details">
           <h2>Episode Details</h2>
-          <p>Select a puppy to learn more.</p>
+          <p>Select a episode to learn more.</p>
         </section>
       );
     }
@@ -27,9 +27,9 @@ export default function App() {
   /** List of episodes that the user can select from */
   function EpisodeList() {
     return (
-      <section className="roster">
+      <section className="episodes">
         <h2>Episodes</h2>
-        <ul className="roster">
+        <ul className="episodes">
           {episodes.map((episode) => (
             <li key={episode.id} onClick={() => setSelectedEpisode(episode)}>
               {episode.title}
