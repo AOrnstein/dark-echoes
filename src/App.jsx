@@ -31,13 +31,13 @@ export default function App() {
     return (
       <section className="episodes">
         <h2>Episodes</h2>
-        <ul className="episodes">
+        <ol className="episodes">
           {episodes.map((episode) => (
             <li key={episode.id} onClick={() => setSelectedEpisode(episode)}>
               {episode.title}
             </li>
           ))}
-        </ul>
+        </ol>
       </section>
     );
   }
